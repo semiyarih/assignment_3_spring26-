@@ -1,0 +1,94 @@
+---
+title: "Tidyverse Part II"
+author: XXXX
+format: html
+editor: visual
+---
+
+## Instructions
+
+Complete the following exercises using the `lubridate` and `purrr` packages in R. Ensure that your solutions are optimized and use functional programming principles where applicable.
+
+1.  Load the necessary libraries.
+2.  Answer each question in separate R code chunks.
+3.  Provide detailed explanations for your approach.
+4.  Submit the rendered HTML file.
+
+## Functions:
+
+### Question 1
+
+Write a function (using `R` code ) to calculate a z score for a given observed value, a mean, and a standard deviation value. And then use your function to find a z score for the following problem. (Research the internet to find the formula used to calculate a z score)\
+Observed value = 25.77, mean = 23.54, standard deviation = 2.442
+
+## List:
+
+### Question 2
+```{r}
+K <- list( x = 3:7, "never", 43, y = list(10,20,30))
+```
+
+#### part a.
+Why is the vector given above called a list? (Explain in two or three sentences) If the vector is a list, identify the type of each object in the list.
+
+#### part b.
+
+Use and show R code that will give the length of the vector shown above.
+
+#### part c.
+
+Use and show R code that will output the fourth object in the vector shown above.
+
+#### part d.
+
+Use and show R code that will show all objects in the vector (list) given above.
+
+
+## Advanced Date Manipulation with lubridate
+
+### Question 3:
+
+Generate a sequence of dates from **January 1, 2015** to **December 31, 2025**, spaced by every **two months**. Extract the **year**, **quarter**, and **ISO week number** for each date.
+
+### Question 4:
+
+Given the following dates, compute the difference in **months** and **weeks** between each consecutive pair.
+
+```{r}
+sample_dates <- c("2018-03-15", "2020-07-20", "2023-01-10", "2025-09-05")
+```
+
+## Higher-Order Functions with purrr
+
+### Question 5:
+
+Using `map()` and `map_dbl()`, compute the **mean**, **median**, and **standard deviation** for each numeric vector in the following list:
+
+``` {r}
+num_lists <- list(c(4, 16, 25, 36, 49), c(2.3, 5.7, 8.1, 11.4), c(10, 20, 30, 40, 50))
+```
+
+## Combining lubridate and purrr
+### Question 6:
+
+Given a list of mixed date formats, use `map()` and `possibly()` from `purrr` to safely convert them to **Date** format and extract the **month name**.
+
+``` {r}
+date_strings <- list("2023-06-10", "2022/12/25", "15-Aug-2021", "InvalidDate")
+```
+
+## Submission
+
+-   Save your Quarto file after completing each problem, render it, then stage and commit the changes.\
+
+-   Include well-commented code and clear explanations.\
+
+-   Make at least **one commit per question**.\
+
+-   Submit the rendered file to **Canvas** and also push it to your **GitHub repository**.\
+
+
+
+
+
+**Good luck!**
