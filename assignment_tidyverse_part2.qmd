@@ -24,11 +24,13 @@ Observed value = 25.77, mean = 23.54, standard deviation = 2.442
 ## List:
 
 ### Question 2
+
 ```{r}
 K <- list( x = 3:7, "never", 43, y = list(10,20,30))
 ```
 
 #### part a.
+
 Why is the vector given above called a list? (Explain in two or three sentences) If the vector is a list, identify the type of each object in the list.
 
 #### part b.
@@ -42,7 +44,6 @@ Use and show R code that will output the fourth object in the vector shown above
 #### part d.
 
 Use and show R code that will show all objects in the vector (list) given above.
-
 
 ## Advanced Date Manipulation with lubridate
 
@@ -64,16 +65,17 @@ sample_dates <- c("2018-03-15", "2020-07-20", "2023-01-10", "2025-09-05")
 
 Using `map()` and `map_dbl()`, compute the **mean**, **median**, and **standard deviation** for each numeric vector in the following list:
 
-``` {r}
+```{r}
 num_lists <- list(c(4, 16, 25, 36, 49), c(2.3, 5.7, 8.1, 11.4), c(10, 20, 30, 40, 50))
 ```
 
 ## Combining lubridate and purrr
+
 ### Question 6:
 
 Given a list of mixed date formats, use `map()` and `possibly()` from `purrr` to safely convert them to **Date** format and extract the **month name**.
 
-``` {r}
+```{r}
 date_strings <- list("2023-06-10", "2022/12/25", "15-Aug-2021", "InvalidDate")
 ```
 
@@ -83,12 +85,8 @@ date_strings <- list("2023-06-10", "2022/12/25", "15-Aug-2021", "InvalidDate")
 
 -   Include well-commented code and clear explanations.\
 
--   Make at least **one commit per question**.\
+-   Make at least **one commit per question/part** (atleast 9 meaningfull commits)\
 
 -   Submit the rendered file to **Canvas** and also push it to your **GitHub repository**.\
-
-
-
-
 
 **Good luck!**
