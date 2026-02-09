@@ -28,7 +28,7 @@ Frequent, incremental commits are expected and will be part of the grading crite
 
 ## Submitting Your Work
 
-Your final submission 02/15/2026  11:59 PM EST.   
+Your final submission 02/22/2026  11:59 PM EST.   
 Make sure all work is committed and pushed and rendered before the due date.
 
 ---
