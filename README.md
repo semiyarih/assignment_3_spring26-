@@ -28,16 +28,16 @@ Frequent, incremental commits are expected and will be part of the grading crite
 
 ## Submitting Your Work
 
-Your final submission is whatever is in your GitHub repository at the deadline.  
+Your final submission 02/15/2026  11:59 PM EST.   
 Make sure all work is committed and pushed and rendered before the due date.
 
-## DueDate
-02/15/2026  11:59 PM EST 
 ---
 
 ## Collaboration and Academic Integrity
 
-You may **discuss ideas** with your classmates in this course. However:
+You may **discuss ideas** with your classmates in this course.
+
+However:
 
 - You **may not copy** code or written answers from another student.  
 - You **may not share your code** with classmates.  
